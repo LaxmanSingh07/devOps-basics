@@ -4,10 +4,8 @@
 
 - Linux file system is a **hierarchical** structure.
 - The top of the hierarchy is called **root**.
-  
+
 ![linux file system](https://tecadmin.net/wp-content/uploads/2022/06/linux-filesystem-hierarchy.png)
-
-
 
 ### Windows File System
 
@@ -15,23 +13,19 @@
 
 letters to assign to different Disks
 
-A: B: 
+A: B:
 
 Removable Disk
 
 c: internal hard drive
 
+## Root
 
+## /bin
 
-## Root 
+- bin folder is know as **binary** folder' all the binary files are stored here. basic commands like ls, cp, mv, etc.
 
-
-
-## /bin 
-
-- bin folder is know as **binary** folder'
-
-## /sbin 
+## /sbin
 
 - sbin folder is know as **system binary** folder
 - It is used to store system binary files which are required for system administration.
@@ -41,14 +35,13 @@ c: internal hard drive
 - lib folder is know as **library** folder
 - It is used to hold the shared library files which are required for system booting and running.
 
-
 ## /usr
 
 - usr folder is know as **user** folder
 - This was used for home directories in the past.
 - This folder has the same folder as that of the root folder.
 
-### Why ? 
+### Why ?
 
 `Historically`
 
@@ -57,15 +50,14 @@ c: internal hard drive
 /usr/local
 
 - This folder is used to store the locally installed software.
-  
+
 if you install java software than the binary files will be stored in /usr/local/java/bin and library files will be stored in /usr/local/java/lib.
 
 - pogram installed here, will be available to all users
 
 `you can install software to specific user`
 
-
-## /opt 
+## /opt
 
 - opt folder is know as **optional** folder
 - This folder is used to store the third party software or application software.
@@ -73,7 +65,6 @@ if you install java software than the binary files will be stored in /usr/local/
 The differnce between usr/local dir and the opt dir is that programs , which NOT split its components.
 
 ex: browser
-
 
 ## /boot
 
@@ -91,12 +82,11 @@ ex: browser
 - etc folder is know as **etc** folder
 - place where the configuration files are stored.
 - orginally it was used to store the system configuration files.
-  
+
 ## /var
 
 - var folder is know as **variable** folder
 - It is used to store the variable data like logs, databases, websites, etc.
-
 
 /var/log
 
@@ -106,13 +96,13 @@ ex: browser
 
 - It is used to store the cache data.
 
-
 ## tmp
 
 - tmp folder is know as **temporary** folder
 - It is used to store the temporary files.
 
 ## /media
+
 (removable media)
 
 - media folder is know as **media** folder
@@ -125,7 +115,7 @@ ex: browser
 
 `Usually you are not interacting with these folders directly`
 
-## Hidden files 
+## Hidden files
 
 - Hidden files are the files which start with a dot (.) in their name.
 - Is primarily used to help prevent important user data from being accidentally deleted.
