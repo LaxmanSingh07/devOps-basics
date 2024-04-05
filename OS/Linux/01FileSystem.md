@@ -21,6 +21,14 @@ c: internal hard drive
 
 ## Root
 
+- The root directory is the top-level directory in the hierarchy of the file system.
+
+## Home
+
+contains the home directories for the non-root users.
+
+Root user home directory is /root
+
 ## /bin
 
 - bin folder is know as **binary** folder' all the binary files are stored here. basic commands like ls, cp, mv, etc.
